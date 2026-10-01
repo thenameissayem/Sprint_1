@@ -1,0 +1,16 @@
+# Root node_modules
+node_modules/
+
+# Sub-folders ke node_modules
+socket/node_modules/
+api/node_modules/
+client/node_modules/
+
+# Environment Variables (Jaise Database keys ya JWT secrets)
+.env
+.env.local
+
+# Build folders (Agar client React/Next.js hai toh)
+client/build/
+client/dist/
+.next/
